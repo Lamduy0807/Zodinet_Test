@@ -1,0 +1,17 @@
+.create-post {
+  display: flex;
+  width: 100%;
+  &__child {
+    flex: 1;
+    &--right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+}
